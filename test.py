@@ -372,8 +372,6 @@ def enable_gpio_before_start():
 
 # ───────────────────────────── MAIN ────────────────────────────────
 if __name__ == "__main__":
-    global i2c_bus
-
     # 1) Abilita GPIO e attende (se serve)
     enable_gpio_before_start()
 
